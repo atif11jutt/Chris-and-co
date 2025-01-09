@@ -9057,7 +9057,7 @@
         t.classList.remove("-open"),
         o.classList.remove("-menuOpen"),
         r.a.to("body", {
-          background: "#00A3D9",
+          background: "#838383",
           ease: "power4.inOut",
           duration: 0.2,
           overwrite: !0,
@@ -9068,7 +9068,7 @@
       Object(n.a)(),
         document.body.classList.contains("-menuOpen")
           ? r.a.to("body", {
-            background: "#00A3D9",
+            background: "#838383",
             ease: "power4.inOut",
             duration: 0.2,
             overwrite: !0,
@@ -13335,7 +13335,7 @@
             onLeave: (t) => {
               let { progress: e, direction: i, isActive: n } = t;
               r.a.to("body", {
-                background: "#00A3D9",
+                background: "#838383",
                 ease: "power4.inOut",
                 duration: 0.2,
                 overwrite: !0,
@@ -13353,7 +13353,7 @@
             onLeaveBack: (t) => {
               let { progress: e, direction: i, isActive: n } = t;
               r.a.to("body", {
-                background: "#00A3D9",
+                background: "#838383",
                 ease: "power4.inOut",
                 duration: 0.2,
                 overwrite: !0,
@@ -14910,7 +14910,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 styles: [
                   {
                     url: "/app/themes/includi-v2/assets/img/m-4.png",
-                    textColor: "#00A3D9",
+                    textColor: "#838383",
                     textSize: 16,
                     fontFamily: "'Open Sans', Arial",
                     fontWeight: "bold",
@@ -17917,7 +17917,7 @@ PERFORMANCE OF THIS SOFTWARE.
           });
       r.a.matchMedia();
       let a = "#000000",
-        l = "#00A3D9",
+        l = "#838383",
         u = "#fefbeb",
         c = jQuery(t.next.container).find(".js-quote");
       r.a.utils.toArray(c).forEach((t) => {
@@ -22550,7 +22550,7 @@ PERFORMANCE OF THIS SOFTWARE.
             async leave(t) {
               var e;
               r.a.set(".o-wiper", { zIndex: 30 }),
-                r.a.set("body", { background: "#00A3D9", overwrite: !0 }),
+                r.a.set("body", { background: "#838383", overwrite: !0 }),
                 await ((e = r.a.timeline({
                   defaults: { ease: "power3.inOut" },
                 })),
@@ -22829,7 +22829,7 @@ PERFORMANCE OF THIS SOFTWARE.
                               }
                             ),
                             n.to("body", {
-                              backgroundColor: "#00A3D9",
+                              backgroundColor: "#838383",
                               ease: "power4.inOut",
                               duration: 0.6,
                               delay: "-0.6",
@@ -22837,7 +22837,7 @@ PERFORMANCE OF THIS SOFTWARE.
                             n.to(
                               "body",
                               {
-                                background: "#00A3D9",
+                                background: "#838383",
                                 ease: "power4.inOut",
                                 duration: 0.6,
                                 overwrite: !0,
