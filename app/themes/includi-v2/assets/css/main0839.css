@@ -2318,22 +2318,22 @@ template {
 }
 @media (min-width: 41.6875em) {
   .a-logo {
-    width: 16.5vw;
+    width: 7.5vw;
   }
 }
 @media (min-width: 62em) {
   .a-logo {
-    width: 13.5vw;
+    width: 4.5vw;
   }
 }
 @media (min-width: 80em) {
   .a-logo {
-    width: 8.489583vw;
+    width: 3.8vw;
   }
 }
 @media (min-width: 113.75em) {
   .a-logo {
-    width: 170px;
+    width: 70px;
   }
 }
 .a-logo svg {
