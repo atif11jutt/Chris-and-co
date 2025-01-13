@@ -17917,7 +17917,7 @@ PERFORMANCE OF THIS SOFTWARE.
           });
       r.a.matchMedia();
       let a = "#000000",
-        l = "#454545",
+        l = "#fff",
         u = "#fefbeb",
         c = jQuery(t.next.container).find(".js-quote");
       r.a.utils.toArray(c).forEach((t) => {
@@ -18411,7 +18411,7 @@ PERFORMANCE OF THIS SOFTWARE.
             }),
               t.addEventListener("mouseleave", () => {
                 r.a.to(t, {
-                  background: a,
+                  background: "transparent",
                   color: s,
                   duration: 1.2,
                   ease: "power3.out",

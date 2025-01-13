@@ -66,6 +66,11 @@ body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
   text-decoration: none;
   color: #000;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.gform_button:hover{
+  background: #fff;
 }
 .a-btn.-full,
 .-full.gform_button,
@@ -355,7 +360,7 @@ h6 {
   font-family: "Cooper Hewitt";
   text-transform: uppercase;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   margin: 0 0 2.06vw 0;
 }
 .a-title.-white,
@@ -376,7 +381,7 @@ h3.-yellow,
 h4.-yellow,
 h5.-yellow,
 h6.-yellow {
-  color: #454545;
+  color: #fff;
 }
 .a-title.-center,
 .-center.m-tool__searchInput,
@@ -969,7 +974,7 @@ p.-white {
 }
 p.-yellow,
 p.m-tool__searchInput {
-  color: #454545;
+  color: #fff;
 }
 a {
   text-decoration: underline;
@@ -1047,7 +1052,7 @@ main textarea,
 main select {
   background: 0 0;
   border: 0;
-  border-bottom: solid 1px #000;
+  border-bottom: solid 1px #fff;
   width: 100%;
   line-height: 2.5;
   margin-bottom: 6.4vw;
@@ -1055,7 +1060,7 @@ main select {
   border-radius: none;
   -webkit-appearance: none;
   appearance: none;
-  color: #000;
+  color: #fff;
   border-radius: 0;
 }
 @media (min-width: 41.6875em) {
@@ -1114,7 +1119,7 @@ main input[type="url"]::placeholder,
 main input[type="week"]::placeholder,
 main textarea::placeholder,
 main select::placeholder {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(202, 202, 202, 0.5);
 }
 main select {
   background: url(../img/arrow-down.svg);
@@ -1146,7 +1151,7 @@ main input[type="checkbox"] {
   background-color: #454545;
   width: 20px;
   height: 20px;
-  border: solid 1px #000;
+  border: solid 1px #fff;
   display: inline-block;
   vertical-align: middle;
   margin-right: 1.4vw;
@@ -1673,7 +1678,7 @@ body {
   font-weight: 400;
   line-height: 1.53;
   font-family: "TWK Lausanne 300";
-  color: #000;
+  color: #fff;
   background: #454545;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2275,6 +2280,12 @@ template {
 }
 .a-hamburger {
   height: 10.256vw;
+}
+.a-hamburger path, .a-hamburger rect{
+  fill: #fff !important;
+}
+.a-hamburger.-hide rect{
+  fill: #434343 !important;
 }
 @media (min-width: 41.6875em) {
   .a-hamburger {
@@ -4238,7 +4249,7 @@ body.-team .m-tool__contentInner.-team {
   display: none;
 }
 .o-footer {
-  color: #454545;
+  color: #fff;
   background: #000;
 }
 @media (min-width: 41.6875em) {
@@ -4300,7 +4311,7 @@ body.-team .m-tool__contentInner.-team {
   margin: 0;
 }
 .o-footer__menu li {
-  color: #454545;
+  color: #fff;
   list-style-type: none;
   line-height: 1;
   margin-bottom: 7.69vw;
@@ -5234,13 +5245,13 @@ body.-team .m-tool__contentInner.-team {
   .o-approach__text h2,
   .o-approach__text p,
   .o-approach__text .a-btn {
-    color: #000;
+    color: #fff;
   }
   .o-approach__text .a-btn {
-    border-color: #000;
+    border-color: #fff;
   }
   .o-approach__text .a-btn path {
-    fill: #000;
+    fill: #fff;
   }
 }
 .o-modelShapes__title {
@@ -7113,6 +7124,8 @@ div.pswp__img--placeholder,
 .js-ctaHoverImage img{
   opacity: 1 !important;
 }
+
+
 .text-mobile-right .m-cta, .text-mobile-right .js-line__inner{
 text-align: right !important;
 }
@@ -7120,4 +7133,9 @@ text-align: right !important;
   background: #ffffff !important;
   color: #000000 !important;
 }
+}
+
+
+.services-5.css-hover > div:hover{
+  background: #000;
 }
