@@ -2312,7 +2312,7 @@ template {
   width: auto;
 }
 .a-logo {
-  width: 24.871vw;
+  width: 12.871vw;
   display: flex;
   white-space: nowrap;
 }
@@ -3357,10 +3357,17 @@ template {
   .services-5 .m-cta{
     height: 30vw;
   }
+
+  .services-3 .m-cta{
+    height: 30vw;
+  }
 }
 @media (min-width: 62em) {
   .services-5 .m-cta {
     width: calc(25% - 1px);
+  }
+  .services-3 .m-cta {
+    width: calc(33.33% - 1px);
   }
   .m-cta {
     width: 33.33%;
@@ -7137,5 +7144,12 @@ text-align: right !important;
 
 
 .services-5.css-hover > div:hover{
+  background: #000;
+}
+
+.services-3.css-hover > div{
+  transition: 0.3s;
+}
+.services-3.css-hover > div:hover{
   background: #000;
 }
