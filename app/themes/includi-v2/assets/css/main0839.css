@@ -2339,10 +2339,10 @@ template {
 
 .o-footer__top h3.u-fs30-desk a{
   display: inline-block;
-  max-width: 150px;
+  max-width: 110px;
 }
 .footer-logo{
-  max-width: 150px;
+  /* max-width: 150px; */
 }
 .a-logo svg {
   width: 100%;
