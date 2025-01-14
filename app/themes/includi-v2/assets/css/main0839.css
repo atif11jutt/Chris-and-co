@@ -7171,7 +7171,25 @@ text-align: right !important;
   position: absolute;
   bottom: 10px;
   right: 10px;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: "Cooper Hewitt";
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 1px 1px 10px BLACK;
+  line-height: 1;
+}
+
+.after-text-row picture{
+  position: relative;
+}
+
+.after-text-row picture::after{
+  content: "AFTER";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.1rem;
   color: #fff;
   font-family: "Cooper Hewitt";
   text-transform: uppercase;
