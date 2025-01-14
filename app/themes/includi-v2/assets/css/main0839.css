@@ -2336,6 +2336,14 @@ template {
     width: 70px;
   }
 }
+
+.o-footer__top h3.u-fs30-desk a{
+  display: inline-block;
+  max-width: 150px;
+}
+.footer-logo{
+  max-width: 150px;
+}
 .a-logo svg {
   width: 100%;
   height: 100%;
