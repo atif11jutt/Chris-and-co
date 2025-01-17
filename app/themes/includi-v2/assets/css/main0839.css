@@ -69,6 +69,15 @@ body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
   transition: 0.3s;
 }
 
+#gform_submit_button_1{
+  border-color: #fff;
+  color: #fff;
+}
+
+#gform_submit_button_1:hover{
+  color: #000;
+}
+
 .gform_button:hover{
   background: #fff;
 }
@@ -7161,6 +7170,18 @@ text-align: right !important;
 .services-3.css-hover > div{
   transition: 0.3s;
 }
+
+.css-hover-gray > div{
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-hover-gray > div:hover{
+  background: #454545 !important;
+}
+
 .services-3.css-hover > div:hover{
   background: #000;
 }
