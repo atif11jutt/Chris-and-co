@@ -7176,6 +7176,7 @@ text-align: right !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .css-hover-gray > div:hover{
