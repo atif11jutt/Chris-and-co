@@ -2586,7 +2586,7 @@ template {
   height: calc(100vh - 15.376vw + 1px);
   height: calc(100dvh - 15.376vw + 1px);
   z-index: -1;
-  background-color: #000;
+  background-color: #454545;
   opacity: 0;
   transition: all 200ms ease;
   pointer-events: none;
@@ -2622,8 +2622,8 @@ template {
   transition: all 300ms ease;
 }
 .m-navigation a:hover {
-  color: #454545;
-  opacity: 1;
+  color: #fff;
+  opacity: 0.6;
 }
 .m-navigation.-open {
   z-index: 10;
@@ -3950,7 +3950,7 @@ body.-team .m-tool__contentInner.-team {
   }
 }
 .o-header.-menuOpen {
-  background: #000;
+  background: #454545;
 }
 .o-header.-menuOpen .o-header__logo > *,
 .o-header.-menuOpen .o-header__hamburger > * {
