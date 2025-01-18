@@ -2990,7 +2990,7 @@ template {
   transform: scale(1.07);
 }
 .m-post {
-  margin-bottom: 15.3846vw;
+  margin-bottom: 11.3846vw;
   display: block;
   text-decoration: none;
   width: 100%;
@@ -7270,6 +7270,6 @@ text-align: right !important;
 
 @media (min-width: 667px) {
   .m-post.-square {
-    margin-bottom: -25%;
+    margin-bottom: -30%;
   }
 }
