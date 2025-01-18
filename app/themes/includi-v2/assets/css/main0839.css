@@ -7222,3 +7222,13 @@ text-align: right !important;
   text-shadow: 1px 1px 10px BLACK;
   line-height: 1;
 }
+
+
+.o-intro.u-container{
+  background-color: #454545;
+}
+
+.js-header.js-introAni{
+  background-size: cover;
+  background-position: center center;
+}
