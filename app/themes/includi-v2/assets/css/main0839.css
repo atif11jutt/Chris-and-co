@@ -2728,6 +2728,8 @@ template {
   font-family: "Cooper Hewitt";
   text-transform: uppercase;
   font-weight: 600;
+  justify-content: center;
+  min-height: 75vh;
 }
 @media (min-width: 41.6875em) {
   .m-navigation__items {
@@ -3924,7 +3926,7 @@ body.-team .m-tool__contentInner.-team {
 .o-header {
   position: fixed;
   width: 100%;
-  height: 15.376vw;
+  height: 18vw;
   top: 0;
   left: 0;
   z-index: 23;
@@ -7272,4 +7274,15 @@ text-align: right !important;
   .m-post.-square {
     margin-bottom: -30%;
   }
+}
+
+
+@media (max-width: 567px) {
+  .m-post__img.project-box img {
+    min-height: 275px;
+}
+.alinea-image{
+    display: flex;
+    flex-direction: column-reverse;
+}
 }
