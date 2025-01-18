@@ -5395,6 +5395,10 @@ body.-team .m-tool__contentInner.-team {
   .o-gallery__img {
     width: 28vw;
   }
+
+  .o-gallery__line-4 .o-gallery__img {
+    width: 21vw;
+  }
 }
 .o-gallery__img img {
   width: 100%;
