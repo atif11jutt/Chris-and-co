@@ -7161,6 +7161,12 @@ div.pswp__img--placeholder,
 .text-mobile-right .m-cta, .text-mobile-right .js-line__inner{
 text-align: right !important;
 }
+
+.text-mobile-right .service-tagline .js-line__inner{
+  text-align: center !important;
+  }
+
+
 .text-mobile-right .js-cta__button{
   background: #ffffff !important;
   color: #000000 !important;
