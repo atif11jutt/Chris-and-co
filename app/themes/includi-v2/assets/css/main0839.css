@@ -7265,3 +7265,11 @@ text-align: right !important;
 .project-box:hover .box-overlay{
   opacity: 1;
 }
+
+
+
+@media (min-width: 667px) {
+  .m-post.-square {
+    margin-bottom: -25%;
+  }
+}
