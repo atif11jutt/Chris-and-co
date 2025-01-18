@@ -2743,6 +2743,7 @@ template {
   line-height: 1;
   margin-bottom: 5.69vw;
   position: relative;
+  text-align: center;
 }
 @media (min-width: 41.6875em) {
   .m-navigation__items ul li {
@@ -7336,6 +7337,9 @@ text-align: right !important;
 @media (min-width: 667px) {
   .m-post.-square {
     margin-bottom: -30%;
+  }
+  .mobile-hero-video{
+    display: none;
   }
 }
 
