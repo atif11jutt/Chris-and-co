@@ -13367,11 +13367,11 @@
         let e = r.a.timeline({ paused: !0, defaults: { ease: "none" } }),
           i = t.querySelectorAll(".js-gallery__right"),
           n = t.querySelectorAll(".js-gallery__left");
-        e.fromTo(n, { translateX: "-15%" }, { translateX: "-6%", duration: 2 }),
+        e.fromTo(n, { translateX: "-4%" }, { translateX: "4%", duration: 2 }),
           e.fromTo(
             i,
-            { translateX: "-6%" },
-            { translateX: "-15%", duration: 2 },
+            { translateX: "4%" },
+            { translateX: "-4%", duration: 2 },
             0
           ),
           o.a.create({
