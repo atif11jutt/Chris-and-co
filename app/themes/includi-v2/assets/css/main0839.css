@@ -7246,11 +7246,20 @@ text-align: right !important;
   right: 0;
   opacity: 0;
   background-color: #000;
-  transition: 0.3s;
+  transition: 0.5s;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.project-box .box-overlay h4{
+  transform: translateY(-40%);
+  transition: 0.3s;
+}
+
+.project-box:hover .box-overlay h4{
+  transform: translateY(0);
 }
 
 .project-box:hover .box-overlay{
