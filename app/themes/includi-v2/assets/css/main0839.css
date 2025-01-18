@@ -7235,7 +7235,9 @@ text-align: right !important;
   background-position: center center;
 }
 
-
+.project-box{
+  border: 3px solid #fff;
+}
 .project-box .box-overlay{
   position: absolute;
   top: 0;
