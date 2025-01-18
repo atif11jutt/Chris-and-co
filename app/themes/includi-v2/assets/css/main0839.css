@@ -2743,7 +2743,7 @@ template {
   line-height: 1;
   margin-bottom: 5.69vw;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 @media (min-width: 41.6875em) {
   .m-navigation__items ul li {
