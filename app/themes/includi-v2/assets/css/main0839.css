@@ -54,7 +54,7 @@
 input[type="submit"],
 body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
   display: inline-block;
-  border: solid 1px #000;
+  border: solid 1px #fff;
   padding: 0 4.12vw;
   font-family: "Cooper Hewitt";
   font-weight: 500;
@@ -64,7 +64,7 @@ body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
   border-radius: 800px;
   background: 0 0;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -141,27 +141,27 @@ body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton.-showOnBigger {
 .-yellow.gform_button,
 input.-yellow[type="submit"],
 body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton.-yellow {
-  color: #454545;
-  border: solid 1px #454545;
+  color: #fff;
+  border: solid 1px #fff;
 }
 .a-btn.-yellow path,
 .-yellow.gform_button path,
 input.-yellow[type="submit"] path,
 body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton.-yellow path {
-  fill: #454545;
+  fill: #fff;
 }
 .a-btn.-white,
 .-white.gform_button,
 input.-white[type="submit"],
 body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton.-white {
-  color: #fefbeb;
-  border: solid 1px #fefbeb;
+  color: #ffffff;
+  border: solid 1px #ffffff;
 }
 .a-btn.-white path,
 .-white.gform_button path,
 input.-white[type="submit"] path,
 body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton.-white path {
-  fill: #fefbeb;
+  fill: #ffffff;
 }
 .a-btn.-black,
 .-black.gform_button,
@@ -175,7 +175,7 @@ body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton.-black {
 .-black.gform_button path,
 input.-black[type="submit"] path,
 body #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton.-black path {
-  fill: #fefbeb;
+  fill: #ffffff;
 }
 .a-btn.-yellowOutline,
 .-yellowOutline.gform_button,
@@ -380,7 +380,7 @@ h3.-white,
 h4.-white,
 h5.-white,
 h6.-white {
-  color: #fefbeb;
+  color: #ffffff;
 }
 .a-title.-yellow,
 .m-tool__searchInput,
@@ -468,7 +468,7 @@ h6.-lower {
   }
 }
 .a-tag.-white {
-  color: #fefbeb;
+  color: #ffffff;
 }
 .a-tag.-center {
   text-align: center;
@@ -979,7 +979,7 @@ input[type="submit"] {
   }
 }
 p.-white {
-  color: #fefbeb;
+  color: #ffffff;
 }
 p.-yellow,
 p.m-tool__searchInput {
@@ -1199,7 +1199,7 @@ main label.checkbox {
 }
 .select2-results__option {
   background: #000;
-  color: #fefbeb;
+  color: #ffffff;
 }
 .ginput_complex select,
 .ginput_container_multiselect select {
@@ -1293,7 +1293,7 @@ main label.checkbox {
 #gforms_confirmation_message {
   font-style: normal;
   border: 1px solid #d5d5d5;
-  background: #fefbeb;
+  background: #ffffff;
   color: #6e6e6e;
   padding: 0.5rem 1.25rem;
   margin: 0.75rem 0 0;
@@ -1335,7 +1335,7 @@ main label.checkbox {
   padding: 0;
   margin: 0;
   border-radius: 0;
-  background-color: #fefbeb;
+  background-color: #ffffff;
   border: 1px solid #9f9fa0;
   border-top: none;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.075);
@@ -1359,7 +1359,7 @@ main label.checkbox {
 .ui-datepicker .ui-datepicker-header {
   background-image: none;
   border: 0;
-  color: #fefbeb;
+  color: #ffffff;
   font-weight: 400;
   position: relative;
 }
@@ -1371,7 +1371,7 @@ main label.checkbox {
 .ui-datepicker .ui-datepicker-title {
   margin: 0;
   padding: 10px 0;
-  color: #fefbeb;
+  color: #ffffff;
   font-size: 14px;
   line-height: 14px;
   text-align: center;
@@ -1422,7 +1422,7 @@ main label.checkbox {
   width: 33%;
 }
 .ui-datepicker thead {
-  color: #fefbeb;
+  color: #ffffff;
   font-weight: 600;
 }
 .ui-datepicker th {
@@ -1617,7 +1617,7 @@ main label.checkbox {
 .a-input {
   background: 0 0;
   border: 0;
-  border-bottom: solid 1px #454545;
+  border-bottom: solid 1px #fff;
   width: 100%;
   line-height: 2.5;
   margin-bottom: 6.4vw;
@@ -1626,7 +1626,7 @@ main label.checkbox {
   border-radius: 0;
   -webkit-appearance: none;
   appearance: none;
-  color: #454545;
+  color: #fff;
 }
 @media (min-width: 41.6875em) {
   .a-input {
@@ -1716,7 +1716,7 @@ body #CybotCookiebotDialog h2 {
 body
   #CybotCookiebotDialogTabContent
   .CybotCookiebotDialogDetailBulkConsentCount {
-  color: #fefbeb;
+  color: #ffffff;
 }
 body
   #CybotCookiebotDialogBodyLevelButtonsSelectPane
@@ -1733,7 +1733,7 @@ body #CybotCookiebotDialogPoweredByText a {
   display: none;
 }
 ::selection {
-  color: #fefbeb;
+  color: #ffffff;
   background-color: #000;
 }
 a {
@@ -2681,7 +2681,7 @@ template {
   height: 100%;
   display: flex;
   flex-direction: column;
-  color: #fefbeb;
+  color: #ffffff;
 }
 .m-navigation__bottom {
   display: flex;
@@ -2948,7 +2948,7 @@ template {
   margin: 0;
 }
 .m-featured__textHolder .-white {
-  color: #fefbeb;
+  color: #ffffff;
 }
 @media (min-width: 62em) {
   .m-featured__textHolder {
@@ -3024,11 +3024,11 @@ template {
   bottom: 0;
   left: 0;
   padding: 7.69vw;
-  color: #fefbeb;
+  color: #ffffff;
   width: auto;
 }
 .m-post.-full .m-post__text h3 {
-  color: #fefbeb;
+  color: #ffffff;
   margin-bottom: 0;
 }
 @media (min-width: 41.6875em) {
@@ -3362,8 +3362,8 @@ template {
   flex-flow: column;
   justify-content: space-between;
   margin-top: -1px;
-  border-top: solid 1px #000;
-  border-bottom: solid 1px #000;
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff;
   position: relative;
 }
 .m-cta.-black {
@@ -3395,7 +3395,7 @@ template {
   }
   .m-cta.-m2,
   .m-cta.-m3 {
-    border-right: solid 1px #000;
+    border-right: solid 1px #fff;
   }
   .m-cta.-m2:last-child,
   .m-cta.-m3:last-child {
@@ -3907,8 +3907,8 @@ body.-team .m-tool__contentInner.-team {
   transform: rotate(90deg);
 }
 .m-tool__category.-toggle svg path {
-  fill: #fefbeb;
-  stroke: #fefbeb;
+  fill: #ffffff;
+  stroke: #ffffff;
 }
 .m-tool__category.-toggle:first-child {
   border-top: solid 1px rgba(0, 0, 0, 0.4);
@@ -4180,7 +4180,7 @@ body.-team .m-tool__contentInner.-team {
 }
 .o-loader__textCenter {
   white-space: nowrap;
-  color: #fefbeb;
+  color: #ffffff;
 }
 .o-loader__textRight {
   display: flex;
@@ -5955,7 +5955,7 @@ body.-team .m-tool__contentInner.-team {
   right: 1.7vw;
   text-align: left;
   margin-bottom: 0;
-  color: #fefbeb;
+  color: #ffffff;
 }
 @media (min-width: 41.6875em) {
   .gm-style-iw-d div h6 {
@@ -7367,3 +7367,29 @@ text-align: right !important;
     flex-direction: column-reverse;
 }
 }
+
+
+.gallery-logo-hover .o-gallery__img{
+  position: relative;
+  border: 2px solid #fff;
+}
+
+.gallery-logo-hover .o-gallery__img::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(/app/uploads/image-logo.png);
+  background-size: cover;
+  background-position: center center;
+  transition: 0.4s;
+  opacity: 0;
+}
+
+.gallery-logo-hover .o-gallery__img:hover::before{
+  opacity: 1;
+}
+
+

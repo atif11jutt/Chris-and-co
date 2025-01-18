@@ -13234,7 +13234,7 @@
         const e = r.a.timeline({ paused: !0, defaults: { ease: "none" } });
         var i = t.querySelectorAll(".o-intro__img");
         if (window.innerWidth > 991) var n = "8.8vw";
-        else n = "15.384vw";
+        else n = "8.8vw";
         e.to(i, { width: n, duration: 1 }),
           o.a.create({
             trigger: t,
@@ -13281,7 +13281,7 @@
           const s = r.a.timeline({ paused: !0, defaults: { ease: "none" } });
           s.to(i, { height: "250%", duration: 0.6 }),
             s.to(i, { width: "200%", duration: 1.4 }),
-            s.to(n, { color: "#fefbeb", duration: 0.2 }, 1.5),
+            s.to(n, { color: "#ffffff", duration: 0.2 }, 1.5),
             o.a.create({
               trigger: t,
               start: "top top+=60%",
@@ -17918,7 +17918,7 @@ PERFORMANCE OF THIS SOFTWARE.
       r.a.matchMedia();
       let a = "#000000",
         l = "#fff",
-        u = "#fefbeb",
+        u = "#ffffff",
         c = jQuery(t.next.container).find(".js-quote");
       r.a.utils.toArray(c).forEach((t) => {
         !(function t(e, i) {
