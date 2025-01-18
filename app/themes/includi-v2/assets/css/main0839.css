@@ -7209,6 +7209,69 @@ text-align: right !important;
   line-height: 1;
 }
 
+
+.Excavation-text-row picture,
+.Concreting-text-row picture,
+.Roofing-text-row picture,
+.Foundation-text-row picture,
+.Final-Touches-text-row picture,
+.Final-Reveal-text-row{
+  position: relative;
+}
+
+.Excavation-text-row picture::after,
+.Concreting-text-row picture::after,
+.Roofing-text-row picture::after,
+.Foundation-text-row picture::after,
+.Final-Touches-text-row picture::after,
+.Final-Reveal-text-row picture::after{
+  content: "BEFORE";
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: "Cooper Hewitt";
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 1px 1px 10px BLACK;
+  line-height: 1;
+}
+
+.Excavation-text-row picture::after{
+  content: "Excavation";
+}
+
+.Concreting-text-row picture::after{
+  content: "Concreting";
+}
+
+
+.Roofing-text-row picture::after{
+  content: "Roofing";
+}
+
+
+
+.Foundation-text-row picture::after{
+  content: "Foundation";
+}
+
+
+
+.Final-Touches-text-row picture::after{
+  content: "Final Touches";
+}
+
+
+.Final-Reveal-text-row picture::after{
+  content: "Final Reveal";
+}
+
+
+
+
 .after-text-row picture{
   position: relative;
 }
