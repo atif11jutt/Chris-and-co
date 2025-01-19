@@ -22865,3 +22865,13 @@ PERFORMANCE OF THIS SOFTWARE.
       window.addEventListener("DOMContentLoaded", function () { }, !0);
   },
 ]);
+
+
+
+document.addEventListener("visibilitychange", function() {
+    if (document.hidden) {
+        document.title = "We Miss you 😔"; // Change title when tab is hidden
+    } else {
+        document.title = "Chris & Co"; // Restore original title when tab is visible
+    }
+});
