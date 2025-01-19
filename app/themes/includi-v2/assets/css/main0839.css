@@ -7422,4 +7422,7 @@ h1.js-titleLine, h2.js-titleLine{
   opacity: 1;
 }
 
+.o-intro__img{
+  display: none !important;
+}
 
