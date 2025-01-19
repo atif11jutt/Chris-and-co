@@ -7364,7 +7364,9 @@ a, *{
   text-decoration: none !important;
 }
 
-
+.mobile-show{
+  display: none;
+}
 
 @media (max-width: 567px) {
   .m-post__img.project-box img {
@@ -7379,6 +7381,9 @@ h1.js-titleLine, h2.js-titleLine{
 }
 .hide-mobile{
   display: none !important;
+}
+.mobile-show{
+  display: block !important;
 }
 .o-gallery__line{
   white-space: unset !important;
