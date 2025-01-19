@@ -7355,7 +7355,15 @@ text-align: right !important;
   .mobile-hero-video{
     display: none;
   }
+  .only-mobile{
+    display: none;
+  }
 }
+
+a, *{
+  text-decoration: none !important;
+}
+
 
 
 @media (max-width: 567px) {
@@ -7365,6 +7373,23 @@ text-align: right !important;
 .alinea-image{
     display: flex;
     flex-direction: column-reverse;
+}
+h1.js-titleLine, h2.js-titleLine{
+  font-size: 11vw;
+}
+.hide-mobile{
+  display: none !important;
+}
+.o-gallery__line{
+  white-space: unset !important;
+  transform: none !important;
+  margin-bottom: 0 !important;
+  display: block !important;
+}
+.o-gallery__img {
+  margin-right: 0 !important;
+  width: 100% !important;
+  margin-bottom: 30px;
 }
 }
 
