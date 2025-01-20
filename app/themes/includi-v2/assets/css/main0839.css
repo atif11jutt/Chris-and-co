@@ -2322,7 +2322,7 @@ template {
   width: auto;
 }
 .a-logo {
-  width: 12.871vw;
+  width: 15.871vw;
   display: flex;
   white-space: nowrap;
 }
@@ -2333,17 +2333,17 @@ template {
 }
 @media (min-width: 62em) {
   .a-logo {
-    width: 4.5vw;
+    width: 5vw;
   }
 }
 @media (min-width: 80em) {
   .a-logo {
-    width: 3.8vw;
+    width: 4.5vw;
   }
 }
 @media (min-width: 113.75em) {
   .a-logo {
-    width: 70px;
+    width: 82px;
   }
 }
 
@@ -3927,7 +3927,7 @@ body.-team .m-tool__contentInner.-team {
 .o-header {
   position: fixed;
   width: 100%;
-  height: 18vw;
+  height: 20vw;
   top: 0;
   left: 0;
   z-index: 23;
@@ -4181,6 +4181,7 @@ body.-team .m-tool__contentInner.-team {
 .o-loader__textCenter {
   white-space: nowrap;
   color: #ffffff;
+  opacity: 0;
 }
 .o-loader__textRight {
   display: flex;
