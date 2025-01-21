@@ -2343,7 +2343,7 @@ template {
 }
 @media (min-width: 113.75em) {
   .a-logo {
-    width: 82px;
+    /* width: 82px; */
   }
 }
 
@@ -3959,7 +3959,7 @@ body.-team .m-tool__contentInner.-team {
 }
 @media (min-width: 113.75em) {
   .o-header {
-    height: 100px;
+    /* height: 100px; */
   }
 }
 .o-header.-menuOpen {
