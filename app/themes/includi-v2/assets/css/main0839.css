@@ -7428,3 +7428,56 @@ h1.js-titleLine, h2.js-titleLine{
 }
 
 
+/* Style for the Services menu item */
+#menu-item-603 {
+  position: relative;
+}
+
+#menu-item-603 > a{
+  padding-bottom: 15px;
+}
+
+/* Hide the dropdown initially */
+#menu-item-603 .dropdown {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* Adjust as per your design */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Optional for styling */
+  list-style: none;
+  margin: 0;
+  margin-top: 14px;
+  padding: 0;
+  z-index: 100;
+  opacity: 0; /* Set initial opacity to 0 */
+  visibility: hidden;
+  transform: translateY(-10px); /* Start the dropdown slightly above */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+/* Style for the dropdown links */
+#menu-item-603 .dropdown li {
+  width: 200px; /* Adjust width if necessary */
+}
+
+#menu-item-603 .dropdown li a {
+  display: block;
+  padding: 10px;
+  color: #333; /* Adjust text color */
+  text-decoration: none;
+  background-color: #fff;
+  margin: 0;
+}
+
+#menu-item-603 .dropdown li a:hover {
+  background-color: #f0f0f0; /* Adjust hover effect */
+}
+
+/* Show the dropdown when hovering over Services */
+#menu-item-603:hover .dropdown {
+  display: block;
+  opacity: 1; /* Fade in the dropdown */
+  visibility: visible;
+  transform: translateY(0); /* Move the dropdown to its normal position */
+}

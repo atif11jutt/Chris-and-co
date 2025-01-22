@@ -649,11 +649,31 @@
                 <div class=js-transition__content>
                     <main class=site-content>
                         <div class=o-filer__overlay></div>
-                        <section class="o-banner   js-header js-introAni" style="background-image: url(/app/uploads/About-us-Section1.png);">
+                        <section class="o-banner   js-header js-introAni" >
                             <div class="o-banner__imgHolder js-imgHolder">
                                 <!-- <video src="/app/uploads/About us - Hero Section.mp4" playsinline autoplay loop muted
                                     class="js-homeSlide o-banner__img js-homeSlide__1"
                                     style="width: 100%;    min-height: 100vh;object-fit: cover;"></video> -->
+
+                                    <video src="/app/uploads/hero-video.mp4" playsinline autoplay loop muted
+                                    class="js-homeSlide o-banner__img js-homeSlide__1"
+                                    style="width: 100%;    min-height: 100vh;object-fit: cover;"></video>
+
+                                    <video src="/app/uploads/hero-video.mp4" playsinline autoplay loop muted
+                                    class="js-homeSlide o-banner__img js-homeSlide__1 mobile-hero-video"
+                                    style="width: 100%;    min-height: 100vh;object-fit: cover;"></video>
+
+
+                                    <style>
+                                        .o-filer__overlay {
+                                            -webkit-backdrop-filter: unset;
+                                            backdrop-filter: unset;
+                                            filter: unset;
+                                            background-color: #000000 !important;
+                                            z-index: 1;
+                                            opacity: 0.4;
+                                        }
+                                    </style>
 
                                 <picture style="display: none;">
                                     <img src="/app/uploads/About-us-Section1.png" alt>
