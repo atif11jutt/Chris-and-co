@@ -7481,3 +7481,61 @@ h1.js-titleLine, h2.js-titleLine{
   visibility: visible;
   transform: translateY(0); /* Move the dropdown to its normal position */
 }
+
+
+
+
+
+#testimonial-carousel .item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: calc(100% - 20px);
+  margin: auto;
+}
+
+#testimonial-carousel .testimonial p {
+  font-size: 1.35vw;
+  color: #454545;
+  margin-bottom: 15px;
+}
+
+#testimonial-carousel .testimonial cite {
+  font-size: 1.25vw;
+  color: #000;
+  font-style: normal;
+}
+
+/* Custom styles for the navigation arrows */
+.owl-nav button.owl-prev,
+.owl-nav button.owl-next {
+  background-color: #454545;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.owl-nav button.owl-prev:hover,
+.owl-nav button.owl-next:hover {
+  background-color: #000;
+}
+
+/* Custom styles for the dots */
+.owl-dots .owl-dot span {
+  background-color: #454545;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+  background-color: #454545 !important;
+}
+
+.owl-dots .owl-dot.active span {
+  background-color: #fff !important;
+}
+
