@@ -7594,3 +7594,10 @@ a{
 }
 
 
+#menu-item-17, #menu-item-506{
+  display: none;
+}
+
+.heading-center, .heading-center *{
+  text-align: center !important;
+}
