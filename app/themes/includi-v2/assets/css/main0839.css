@@ -848,6 +848,9 @@ input[type="submit"] {
   .-h1 {
     font-size: 6.25vw;
   }
+  /* .smaller-heading{
+    font-size: 5vw;
+  } */
   .u-fs50,
   h2,
   .-h2 {
@@ -6079,7 +6082,7 @@ button.gm-ui-hover-effect {
     padding-bottom: 110%;
   }
   .o-pageHead.-archive h1 {
-    width: 52%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
