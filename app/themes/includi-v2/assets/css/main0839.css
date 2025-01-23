@@ -7173,6 +7173,13 @@ div.pswp__img--placeholder,
 .o-approach {
   /* height: auto !important; */
 }
+
+.hide-hexa-mobile{
+  height: auto !important;
+}
+.hide-hexa-mobile .pin-spacer{
+  display: none !important;
+}
 .js-ctaHoverImage img{
   opacity: 1 !important;
 }
