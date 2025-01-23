@@ -7153,7 +7153,8 @@ div.pswp__img--placeholder,
     margin-top: 30px;
 }
 .o-banner__text {
-  top: 15%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .auto-height-sapcer .pin-spacer{
   /* height: auto !important; */
@@ -7180,6 +7181,23 @@ text-align: right !important;
   background: #ffffff !important;
   color: #000000 !important;
 }
+
+#testimonial-carousel .testimonial p {
+  font-size: 3.35vw !important;
+}
+
+#testimonial-carousel .testimonial cite {
+  font-size: 3.25vw !important;
+}
+
+.owl-nav .owl-prev {
+  left: -10px !important;
+}
+
+.owl-nav .owl-next {
+  right: -10px !important;
+}
+
 }
 
 
