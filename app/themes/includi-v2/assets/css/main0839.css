@@ -7484,7 +7484,7 @@ h1.js-titleLine, h2.js-titleLine{
 
 
 #testimonial-carousel .item {
-  background-color: #fff;
+  background-color: transparent;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -7495,13 +7495,14 @@ h1.js-titleLine, h2.js-titleLine{
 
 #testimonial-carousel .testimonial p {
   font-size: 1.35vw;
-  color: #454545;
+  color: #fff;
   margin-bottom: 15px;
+  font-style: italic;
 }
 
 #testimonial-carousel .testimonial cite {
   font-size: 1.25vw;
-  color: #000;
+  color: #fff;
   font-style: normal;
 }
 
