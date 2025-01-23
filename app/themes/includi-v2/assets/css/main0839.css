@@ -7151,6 +7151,13 @@ div.pswp__img--placeholder,
 
 
 @media (max-width: 567px){
+  .o-approach__stepHolder {
+    width: 60vw;
+    height: 70vw;
+  }
+  .o-approach__modelHolder{
+    width: 50vw;
+  }
   .o-footer__naw {
     width: 100%;
     margin-top: 30px;
