@@ -5281,10 +5281,10 @@ body.-team .m-tool__contentInner.-team {
     color: #fff;
   }
   .o-approach__text .a-btn {
-    border-color: #fff;
+    /* border-color: #fff; */
   }
   .o-approach__text .a-btn path {
-    fill: #fff;
+    /* fill: #fff; */
   }
 }
 .o-modelShapes__title {
@@ -7483,9 +7483,6 @@ h1.js-titleLine, h2.js-titleLine{
 }
 
 
-
-
-
 #testimonial-carousel .item {
   background-color: #fff;
   padding: 30px;
@@ -7508,27 +7505,16 @@ h1.js-titleLine, h2.js-titleLine{
   font-style: normal;
 }
 
-/* Custom styles for the navigation arrows */
-.owl-nav button.owl-prev,
-.owl-nav button.owl-next {
-  background-color: #454545;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.owl-nav button.owl-prev:hover,
-.owl-nav button.owl-next:hover {
-  background-color: #000;
-}
-
 /* Custom styles for the dots */
 .owl-dots .owl-dot span {
   background-color: #454545;
   width: 12px;
   height: 12px;
   border-radius: 50%;
+}
+
+.owl-dots{
+  margin-top: 15px;
 }
 
 .owl-theme .owl-dots .owl-dot span{
@@ -7538,4 +7524,72 @@ h1.js-titleLine, h2.js-titleLine{
 .owl-dots .owl-dot.active span {
   background-color: #fff !important;
 }
+
+
+
+/* Custom navigation arrows */
+.owl-nav {
+  position: absolute;
+  top: 35%; /* Center vertically */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none; /* Prevent overlapping clicks */
+}
+
+.owl-nav button {
+  background: none;
+  border: none;
+  color: #000; /* Change to desired arrow color */
+  font-size: 2rem; /* Adjust size as needed */
+  cursor: pointer;
+  pointer-events: auto; /* Allow clicking */
+  position: relative;
+  z-index: 10; /* Ensure above carousel items */
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+  background: transparent !important;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  left: -30px; /* Adjust as needed */
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  right: -30px; /* Adjust as needed */
+}
+
+.owl-nav .owl-prev span,
+.owl-nav .owl-next span{
+  font-size: 2.5rem;
+  line-height: 1rem;
+  transform: scaleX(1.5);
+  display: block;
+}
+
+a{
+  cursor: pointer !important;
+}
+
+.js-cta__button{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.js-cta__button svg path{
+  fill: #000 !important;
+}
+
+.js-cta__button:hover{
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.js-cta__button:hover svg path{
+  fill: #fff !important;
+}
+
 

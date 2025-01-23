@@ -22643,6 +22643,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 o.a.refresh();
             },
             after(t) {
+              initializeOwlCarousel();
               setTimeout(function () {
                 Ro(),
                   Xo && Xo.paused(!1),
@@ -22877,3 +22878,37 @@ document.addEventListener("visibilitychange", function() {
 });
 
 
+function initializeOwlCarousel() {
+  if (!jQuery("#testimonial-carousel").hasClass("owl-loaded")) {
+    jQuery("#testimonial-carousel").owlCarousel({
+      items: 3,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 5000, // Change this value for a different slide duration
+      autoplayHoverPause: true,
+      nav: true,
+      dots: true,
+      
+      responsive: {
+          0: {
+              items: 1 // 1 item on small screens (under 767px)
+          },
+          767: {
+              items: 2 // 2 items on medium screens (between 767px and 991px)
+          },
+          991: {
+              items: 3 // 3 items on large screens (above 991px)
+          }
+      }
+    });
+    console.log("Owl Carousel initialized"); // Debugging
+    return true; // Initialization successful
+  }
+  return false; // Initialization not yet successful
+}
+
+
+// Start checking on document ready
+jQuery(document).ready(function () {
+  initializeOwlCarousel();
+});
