@@ -22879,6 +22879,17 @@ document.addEventListener("visibilitychange", function() {
 
 
 function initializeOwlCarousel() {
+
+  jQuery("#menu-item-506 .dropdown").slideUp();
+  jQuery(".dropdown-toggle").on("click", function () {
+    jQuery(this).next(".dropdown").slideToggle();
+  });
+
+  // Prevent default action for any remaining <a> tags in Services
+  jQuery(".dropdown-toggle").on("click", function (e) {
+    e.preventDefault(); // Prevents the link action
+  });
+
   if (!jQuery("#testimonial-carousel").hasClass("owl-loaded")) {
     jQuery("#testimonial-carousel").owlCarousel({
       items: 3,
@@ -22912,3 +22923,6 @@ function initializeOwlCarousel() {
 jQuery(document).ready(function () {
   initializeOwlCarousel();
 });
+
+
+
