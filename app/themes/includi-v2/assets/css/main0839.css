@@ -527,6 +527,9 @@ h3 {
 .u-fs34 {
   font-size: 8.717vw;
 }
+.u-fs34.u-fs34_between {
+  font-size: 7vw;
+}
 .u-fs30,
 h4,
 .-h4 {
@@ -7684,6 +7687,12 @@ a{
 
 #mobile-fixed-box a:hover {
   color: #ccc;
+}
+
+#mobile-fixed-box svg{
+  width: 25px;
+  height: auto;
+  transform: translateY(7px);
 }
 
 /* Show the box only on screens smaller than 768px */
