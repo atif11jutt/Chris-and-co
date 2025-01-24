@@ -7670,7 +7670,7 @@ a{
   bottom: 0px;
   right: 0px;
   left: 0;
-  background-color: #000;
+  background-color: #454545;
   color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   font-size: 15px;
@@ -7682,11 +7682,8 @@ a{
 #mobile-fixed-box a {
   text-decoration: none;
   color: #fff;
-  padding: 15px 20px;
-}
-
-#mobile-fixed-box a:hover {
-  color: #ccc;
+  padding: 15px 20px 20px;
+  line-height: 1;
 }
 
 #mobile-fixed-box svg{
