@@ -4138,7 +4138,7 @@ body.-team .m-tool__contentInner.-team {
     flex-direction: row;
     width: auto;
     text-align: left;
-    margin-left: 5%;
+    margin-left: -15%;
   }
 }
 .o-loader__text h6 {
@@ -4184,7 +4184,7 @@ body.-team .m-tool__contentInner.-team {
 .o-loader__textCenter {
   white-space: nowrap;
   color: #ffffff;
-  opacity: 0;
+  /* opacity: 0; */
 }
 .o-loader__textRight {
   display: flex;
@@ -7635,4 +7635,8 @@ a{
 
 .heading-center, .heading-center *{
   text-align: center !important;
+}
+
+.contact-page .o-banner__imgHolder:after{
+  background: #00000070 !important;
 }
