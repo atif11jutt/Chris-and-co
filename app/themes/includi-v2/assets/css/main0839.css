@@ -7658,3 +7658,38 @@ a{
 #menu-item-506 .dropdown-toggle{
   cursor: pointer;
 }
+
+
+/* Fixed box styling */
+#mobile-fixed-box {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1000;
+}
+
+#mobile-fixed-box a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+#mobile-fixed-box a:hover {
+  color: #ccc;
+}
+
+/* Show the box only on screens smaller than 768px */
+@media (max-width: 768px) {
+  #mobile-fixed-box {
+    display: flex;
+    justify-content: center;
+  }
+}

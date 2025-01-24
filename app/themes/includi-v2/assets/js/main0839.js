@@ -22880,6 +22880,16 @@ document.addEventListener("visibilitychange", function() {
 
 function initializeOwlCarousel() {
 
+  // Create the fixed box container
+  const fixedBox = document.createElement("div");
+  fixedBox.id = "mobile-fixed-box";
+  fixedBox.innerHTML = `
+    <a href="tel:0468404516">Call: 0468 404 516</a>
+  `;
+
+  // Append the box to the body
+  document.body.appendChild(fixedBox);
+
   jQuery("#menu-item-506 .dropdown").slideUp();
   jQuery(".dropdown-toggle").on("click", function () {
     jQuery(this).next(".dropdown").slideToggle();
