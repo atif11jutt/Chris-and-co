@@ -1061,8 +1061,16 @@
 
 
 <video src="/app/uploads/hero-video2.MP4" playsinline autoplay loop muted
-class=" only-mobile"
+class=" hide-desktop"
 style="width: 100%; display: flex;object-fit: cover;"></video>
+
+<style>
+    @media (min-width: 567px) {
+        .hide-desktop{
+            display: none !important;
+        }
+    }
+</style>
 
                         <section class="o-cta__holder">
                             <a href="/services/duplex/index.html" target=""
