@@ -11,15 +11,17 @@ $mail = new PHPMailer(true);
 try {
     // SMTP Configuration
     $mail->isSMTP();
-    $mail->Host       = 'smtp.hostinger.com'; // Hostinger SMTP server
+    $mail->Host       = 'smtp.gmail.com'; // Hostinger SMTP server
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'no-reply@chrisandcoconstructions.com.au'; // Your email
-    $mail->Password   = 'Chris.z@2025'; // Your email password
+    $mail->Username   = 'chris@chrisandcoconstructions.com.au'; // Your email
+    $mail->Password   = 'mmon fvzc taqu ixci'; // Your email password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Use SSL
     $mail->Port       = 465; // Use 587 for TLS
 
     // Sender & Recipient
-    $mail->setFrom('no-reply@chrisandcoconstructions.com.au', 'Chris & Co Constructions');
+    $mail->setFrom('chris@chrisandcoconstructions.com.au', 'Chris & Co Constructions');
+    $mail->addReplyTo('chris@chrisandcoconstructions.com.au', 'Chris & Co. Constructions');
+
     $mail->addAddress('chris@chrisandcoconstructions.com.au'); // Change to recipient's email
 
     // Email Content
